@@ -19,7 +19,7 @@ RAG-Chatbot/ │ ├── streamlit.py # streamlit application ├── pdf_ch
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo/chatbot_project.git
+   git clone https://github.com/Malalane/RAG-Chatbot.git
    cd chatbot_project
 Create a Virtual Environment
 
