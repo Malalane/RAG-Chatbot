@@ -71,14 +71,14 @@ Create a config.json file in the project directory with the following structure:
       }
 Replace the placeholders with your actual file paths and collection name.
 
-3. **Set Environment and Environment Variables**
+3. **Set Environment and Environment Variables** 
 Create API Key for Google Gemini https://ai.google.dev/gemini-api/docs/api-key
 after acquiring API Key :
 
 Make sure to set the API_GEMINI environment variable with your Gemini API key.
 
 export API_GEMINI=your_gemini_api_key (or windows equivalent)
-
+## Run App
 4. **Running the Application**
 Activate the Virtual Environment (if not already active)
 Run this command  on the terminal with while in the folder
@@ -92,16 +92,16 @@ myenv\Scripts\activate
 
 
 By default, the application will be accessible at http://127.0.0.1:5000.
+## Usage
 
-Usage
 Open your browser and navigate to http://127.0.0.1:5000 to access the chatbot interface.
 Type your query into the chat input field and press "Send" to receive a response from the chatbot.
 Notes
 Ensure that your PDF file is accessible and correctly specified in the config.json.
 The Chroma database will be created or loaded based on the configuration settings. Ensure you create an empty folder name for the database : mkdir <folder_name> (this will be the path in your config file)
 License
+## Acknowledgements
 
-Acknowledgements
 Streamlit framwork
 Google Generative AI for the generative AI API.
 
