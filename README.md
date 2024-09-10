@@ -20,7 +20,7 @@ RAG-Chatbot/ │ ├── streamlit.py # streamlit application ├── pdf_ch
 
    ```bash
    git clone https://github.com/Malalane/RAG-Chatbot.git
-   cd chatbot_project
+   cd RAG-Chatbot
 Create a Virtual Environment
 
 Linux/macOS:
