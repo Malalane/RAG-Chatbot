@@ -70,8 +70,8 @@ Create a config.json file in the project directory with the following structure:
         "model_name":"model/<model_name>"
       }
 Replace the placeholders with your actual file paths and collection name.
-3. **Set Environment and Environment Variables**
 
+3. **Set Environment and Environment Variables**
 Create API Key for Google Gemini https://ai.google.dev/gemini-api/docs/api-key
 after acquiring API Key :
 
