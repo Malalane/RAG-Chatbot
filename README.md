@@ -50,25 +50,25 @@ Set Up Configuration
 2. **Set config.json for Configuration**
 Create a config.json file in the project directory with the following structure:
 
-
-{
-  "pdf_path": "path/to/your/pdf/file.pdf",
-  "chroma_path": "path/to/chroma/database",
-  "collection_name": "your_collection_name"
-  "safety_settings" : [
-  {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-  {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-  {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-  {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}],
-  "generation_config" : {
-      "temperature": 0.3,
-      "top_p": 0.95,
-      "top_k": 64,
-      "max_output_tokens": 8192,
-      "response_mime_type": "text/plain"
-  },
-  "model_name":"model/<model_name>"
-}
+      ```bash
+      {
+        "pdf_path": "path/to/your/pdf/file.pdf",
+        "chroma_path": "path/to/chroma/database",
+        "collection_name": "your_collection_name"
+        "safety_settings" : [
+        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"}],
+        "generation_config" : {
+            "temperature": 0.3,
+            "top_p": 0.95,
+            "top_k": 64,
+            "max_output_tokens": 8192,
+            "response_mime_type": "text/plain"
+        },
+        "model_name":"model/<model_name>"
+      }
 Replace the placeholders with your actual file paths and collection name.
 3. **Set Environment and Environment Variables**
 
